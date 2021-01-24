@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>something</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sub_container">
+      <div class="weatherboard">
+        <div class="description"></div>
+        <div class="right">
+          <div class="location"></div>
+          <div class="currTemp"></div>
+          <div class="highTemp"></div>
+          <div class="lowTemp"></div>
+        </div>
+      </div>
+
+      <div class="todoList">
+        <form class="todoForm">
+          <input
+            type="type"
+            class="todotype"
+            placeholder="Write down what to do"
+          />
+        </form>
+
+        <h1 class="title">Pending</h1>
+        <ul class="unfinishedList"></ul>
+        <h1 class="title">Finished</h1>
+        <ul class="finishedList"></ul>
+      </div>
+    </div>
+
+    <div class="main_container">
+      <div class="js-clock">
+        <h1></h1>
+      </div>
+
+      <div class="greet">
+        <form class="greeting-form form">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="js-greeting greeting"></h4>
+      </div>
+    </div>
+
+    <script src="clock and greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
