@@ -61,8 +61,7 @@ body {
 }
 
 .currTemp {
-  margin: 20px;
-  margin-right: 0px;
+  margin-right: 40px;
   margin-bottom: 10px;
   display: inline-block;
   font-size: 60px;
@@ -71,13 +70,10 @@ body {
 
 .highTemp,
 .lowTemp {
-  display: inline;
+  float: left;
   font-size: 30px;
   width: 50%;
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-bottom: 10px;
+  text-align: right;
   font-weight: 600;
 }
 
